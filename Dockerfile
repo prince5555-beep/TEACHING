@@ -4,8 +4,9 @@ FROM node:20-slim
 # 2. Set workdir
 WORKDIR /app
 
-# 3. Install system dependencies for Chromium
+# 3. Install system dependencies for Chromium + git (important!)
 RUN apt-get update && apt-get install -y \
+    git \
     wget \
     gnupg \
     ca-certificates \
@@ -55,7 +56,7 @@ RUN npm install
 # 5. Copy source code
 COPY . .
 
-# 6. Expose port
+# 6. Expose port (Fly.io default 8080, but your bot uses 3000)
 EXPOSE 3000
 
 # 7. Puppeteer config (headless chrome)
