@@ -58,7 +58,7 @@ module.exports = {
       const downloadLink = result.downloadUrl;
 
       const caption =
-        `🎥 𝘝𝘈𝘑𝘐𝘙𝘈 𝘠𝘖𝘜𝘛𝘜𝘉𝘌 𝘝𝘐𝘋𝘌𝘖 𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋𝘌𝘙\n\n` +
+        `🎥PRINCE  𝘠𝘖𝘜𝘛𝘜𝘉𝘌 𝘝𝘐𝘋𝘌𝘖 𝘋𝘖𝘞𝘕𝘓𝘖𝘈𝘋𝘌𝘙\n\n` +
         `🎬 *${data.title}*\n` +
         `📅 Uploaded: ${data.ago}\n` +
         `⏱️ Duration: ${data.timestamp}\n` +
