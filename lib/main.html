@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>☭  
-> ☭ 𝙿𝚁𝙸𝙽𝙲𝙴 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
+> ＰＲＩＮＣＥ　ＭＩＮＩ
 ☭</title>
 
   <!-- 🌸 Tailwind + Icons -->
@@ -44,7 +44,7 @@
       50% { filter: brightness(1.5) hue-rotate(180deg); }
     }
 
-    /* 🌸 QUANTUM BACKGROUND */
+    /* 🌸ＰＲＩＮＣＥ　ＭＩＮＩ BACKGROUND */
     body {
       font-family: 'Orbitron', monospace;
       overflow: hidden;
@@ -62,8 +62,8 @@
       filter: brightness(0.2) contrast(1.3) saturate(2);
     }
 
-    /* 🌸 QUANTUM STARFIELD */
-    .quantum-star {
+    /* 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ STARFIELD */
+    .prince-star {
       position: absolute;
       background: radial-gradient(circle, #00d4ff 0%, #ff00e6 50%, transparent 70%);
       border-radius: 50%;
@@ -78,13 +78,13 @@
       width: 4px;
       height: 4px;
       background: #ff00e6;
-      border-radius: 50%;
+      border-radius: 40%;
       animation: qubitSpin 2s linear infinite;
       box-shadow: 0 0 10px #ff00e6;
     }
 
-    /* 🌸 QUANTUM NEON EFFECTS */
-    .quantum-gradient {
+    /* 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ NEON EFFECTS */
+    .prince-gradient {
       background: linear-gradient(90deg, #00d4ff, #ff00e6, #00ff41, #ff6b35);
       background-size: 400% 400%;
       -webkit-background-clip: text;
@@ -92,7 +92,7 @@
       animation: quantumPulse 4s ease-in-out infinite;
     }
 
-    .quantum-neon {
+    .prince-neon {
       text-shadow: 
         0 0 5px #00d4ff,
         0 0 15px #ff00e6,
@@ -101,7 +101,7 @@
       animation: entanglementWave 2s ease-in-out infinite;
     }
 
-    .quantum-border {
+    . prince-border {
       box-shadow: 
         0 0 15px #00d4ff,
         0 0 30px #ff00e6,
@@ -109,7 +109,7 @@
       animation: entanglementWave 3s ease-in-out infinite;
     }
 
-    .quantum-button {
+    . prince-button {
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       box-shadow: 
         0 0 15px #ff00e6,
@@ -119,7 +119,7 @@
       overflow: hidden;
     }
 
-    .quantum-button::before {
+    . prince-button::before {
       content: '';
       position: absolute;
       top: 0; left: -100%;
@@ -128,11 +128,11 @@
       transition: left 0.5s;
     }
 
-    .quantum-button:hover::before {
+    . prince-button:hover::before {
       left: 100%;
     }
 
-    .quantum-button:hover {
+    .prince-button:hover {
       transform: scale(1.05) rotate(2deg);
       box-shadow: 
         0 0 25px #ff00e6,
@@ -140,7 +140,7 @@
         0 0 75px #ff00e6;
     }
 
-    /* 🌸 QUANTUM BOX */
+    /* 🌸 ＰＲＩＮＣＥ　ＭＩＮＩBOX */
     .quantum-box {
       position: relative;
       background: rgba(0, 0, 0, 0.85);
@@ -148,7 +148,7 @@
       overflow: hidden;
     }
 
-    .quantum-box::before {
+    . prince-box::before {
       content: '';
       position: absolute;
       inset: 0;
@@ -163,10 +163,10 @@
       z-index: -1;
     }
 
-    .quantum-shake { animation: quantumShake 0.6s; }
+    . prince-shake { animation: quantumShake 0.6s; }
 
-    /* 🌸 QUANTUM INPUT */
-    .quantum-input {
+    /* 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ INPUT */
+    . prince-input {
       background: rgba(255,255,255,0.08);
       border: 2px solid rgba(0,212,255,0.4);
       backdrop-filter: blur(15px);
@@ -174,7 +174,7 @@
       position: relative;
     }
 
-    .quantum-input:focus {
+    . prince-input:focus {
       border-color: #ff00e6;
       box-shadow: 0 0 25px rgba(255,0,230,0.5);
       background: rgba(255,255,255,0.15);
@@ -195,18 +195,18 @@
 </head>
 
 <body class="min-h-screen flex items-center justify-center bg-black overflow-hidden relative">
-  <!-- 🌸 QUANTUM VIDEO BACKGROUND -->
+  <!-- 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ VIDEO BACKGROUND -->
   <video id="bg-video" autoplay muted loop playsinline>
     <source src="https://cdn.pixabay.com/vimeo/557165692/space-91092.mp4?width=1280&hash=a593dcd6f1b5b9e98d6b99b2a321ae3e5a9d7c1b" type="video/mp4">
   </video>
 
-  <!-- 🌸 QUANTUM STARFIELD -->
+  <!-- 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ STARFIELD -->
   <div id="quantum-stars" class="fixed inset-0 pointer-events-none z-0"></div>
 
   <!-- 🌸 QUBIT OVERLAY -->
   <div id="qubits-container" class="fixed inset-0 pointer-events-none z-0"></div>
 
-  <!-- 🌸 MAIN QUANTUM BOX -->
+  <!-- 🌸 MAIN ＰＲＩＮＣＥ　ＭＩＮＩ BOX -->
   <div class="container mx-auto px-4 relative z-10">
     <div class="max-w-md mx-auto p-8 quantum-box rounded-3xl quantum-border relative overflow-hidden">
       <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-pink-500 to-purple-600 rounded-3xl opacity-30 blur-xl animate-pulse"></div>
@@ -219,16 +219,16 @@
           <div class="qubit absolute -bottom-2 -left-2 animation-delay-1000"></div>
         </div>
 
-        <!-- 🌸 QUANTUM TITLES -->
+        <!-- 🌸 ＰＲＩＮＣＥ　ＭＩＮＩ TITLES -->
         <h3 class="text-3xl font-black mb-3 quantum-gradient quantum-neon tracking-widest">
           𝗠𝗜𝗡𝗜 𝗕𝗢𝗧
         </h3>
         <h4 class="text-2xl font-extrabold uppercase tracking-widest mb-6 quantum-gradient">
-          ☭ 𝙿𝚁𝙸𝙽𝙲𝙴 𝙼𝙸𝙽𝙸 𝙱𝙾𝚃
+          ＰＲＩＮＣＥ　ＭＩＮＩ
 
         </h4>
 
-        <!-- 🌸 QUANTUM DIVIDER -->
+        <!-- 🌸 ＰＲＩＮＣＥ DIVIDER -->
         <div class="flex items-center justify-center mb-8">
           <div class="flex-grow border-t border-cyan-500 border-opacity-30"></div>
           <span class="mx-3 text-cyan-300 text-xs tracking-widest font-bold">⟐ 𝙴𝙽𝚃𝙰𝙽𝙶𝙻𝙴𝙳 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽 </span>
