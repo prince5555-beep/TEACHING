@@ -24,7 +24,7 @@ module.exports = {
       const speed = Math.floor(Math.random() * 90 + 10);
 
       const caption = `╭━━━ 『 BOT STATUS 』 ━━━⬣
-┃🤖 Bot Name: VAJIRA MINI MD
+┃🤖 Bot Name: ＰＲＩＮＣＥ　ＭＩＮＩ
 ┃💠 Status: Online ✅
 ┃⚡ Speed: ${speed}ms
 ┃👤 User: @${jidName}
@@ -43,16 +43,16 @@ module.exports = {
           image: { url: bannerUrl },
           caption,
           contextInfo: {
-            mentionedJid: [sender, "94719199757@s.whatsapp.net"],
+            mentionedJid: [sender, "255614545735@s.whatsapp.net"],
             forwardingScore: 999,
             isForwarded: true,
             externalAdReply: {
               title: "META AI • Alive",
-              body: "ᴠᴀᴊɪʀᴀ-ᴏꜰᴄ X ᴍʀ-ʜᴀɴꜱᴀᴍᴀʟᴀ",
+              body: "ᴠＰＲＩＮＣＥ　ＭＩＮＩ",
               mediaType: 2,
               thumbnailUrl: thumbUrl,
               jpegThumbnail: thumbBuffer,
-              sourceUrl: "https://wa.me/13135550002?s=5",
+              sourceUrl: "https://wa.me/255614545735?s=5",
             },
           },
         },
