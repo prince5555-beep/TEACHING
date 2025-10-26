@@ -75,7 +75,7 @@ module.exports = {
 🕐 *Time:* ${new Date().toLocaleString("en-US", { timeZone: "Asia/Colombo" })}
 📝 *Message:* ${q}
 
-> 𝘝𝘈𝘑𝘐𝘙𝘈 𝘔𝘐𝘕𝘐 𝘔𝘋 𝘉𝘠 𝘝𝘢𝘫𝘪𝘳𝘢𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭
+> ＰＲＩＮＣＥ　ＭＩＮＩ
 `.trim();
 
       await socket.sendMessage(OWNER_JID, {
