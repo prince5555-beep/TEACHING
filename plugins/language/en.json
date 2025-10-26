@@ -1,9 +1,0 @@
-{
-  "invalid_url": "❌ Please provide a valid TikTok URL!",
-  "fetch_fail": "❌ Failed to fetch video. Try again.",
-  "reply_prompt": "Reply with number:\n1 No Watermark\n2 With Watermark\n3 Audio Only",
-  "video_no_wm": "Video (No Watermark)",
-  "video_wm": "Video (With Watermark)",
-  "audio_only": "Audio Only",
-  "invalid_option": "❌ Invalid option. Please reply with 1, 2, or 3."
-}
