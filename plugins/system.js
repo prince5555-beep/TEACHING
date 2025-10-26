@@ -31,21 +31,21 @@ module.exports = {
 *🧩 Modules Loaded:* ${Object.keys(require.cache).length}
 *👤 User:* ${os.userInfo().username}
 
-> 𝘝𝘈𝘑𝘐𝘙𝘈 𝘖𝘍𝘍𝘐𝘊𝘐𝘈𝘓 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛`
+> ＰＲＩＮＣＥ　ＭＩＮＩ`
             
 
             const sender = msg.key.remoteJid;
 
             await socket.sendMessage(sender, {
-                image: { url: 'https://files.catbox.moe/ao1lcx.jpg' }, // Confirm accessibility
+                image: { url: 'https://files.catbox.moe/0k7rdg.jpg' }, // Confirm accessibility
                 caption,
                 contextInfo: {
                     mentionedJid: ['94719199757@s.whatsapp.net'],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363285295780590@newsletter',
-                        newsletterName: '𝘝𝘈𝘑𝘐𝘙𝘈 𝘖𝘍𝘍𝘐𝘊𝘐𝘈𝘓 𝘔𝘐𝘕𝘐 𝘉𝘖𝘛🪻',
+                        newsletterJid: '12036328295780590@newsletter',
+                        newsletterName: 'ＰＲＩＮＣＥ　ＭＩＮＩ🪻',
                         serverMessageId: 143
                     }
                 }
