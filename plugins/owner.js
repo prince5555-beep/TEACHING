@@ -41,35 +41,35 @@ END:VCARD`.trim(),
     await sock.sendMessage(jid, {
       title: "📑ᴏᴡɴᴇʀꜱ ɪɴꜰᴏx📑",
       text: "ᴄɪᴄᴋ ᴛʜᴇ ᴏᴡᴇʀꜱ ɪɴꜰᴏ ʙᴜᴛᴛᴏɴ🖲📋",
-      footer: "● ᴠᴀᴊɪʀᴀ-ᴏꜰᴄ X ᴍʀ-ʜᴀɴꜱᴀᴍᴀʟᴀ ●",
+      footer: "● ＰＲＩＮＣＥ●",
       buttonText: "☤ᴏᴡɴᴇʀꜱ ɪɴꜰᴏ☤",
       sections: [
         {
-          title: "ᴠᴀᴊɪʀᴀ ᴏꜰᴄ",
+          title: "ＰＲＩＮＣＥ",
           rows: [
             {
               title: "ɴᴀᴍᴇ",
-              description: "👨‍💻ᴠᴀᴊɪʀᴀ ʀᴀᴛʜɴᴀʏᴀᴋᴀ👨‍💻",
+              description: "👨‍💻ＰＲＩＮＣＥ👨‍💻",
               rowId: ".owner",
             },
             {
               title: "ᴀɢᴇ",
-              description: "ᴀɢᴇ - ➋➍",
+              description: "ᴀɢᴇ - 23",
               rowId: ".owner",
             },
             {
               title: "ᴄᴏᴜɴʀᴛʏ",
-              description: "🇱🇰ꜱʀɪ-ʟᴀɴᴋᴀ🇱🇰",
+              description: "🇱🇰TANZANIA🇱🇰",
               rowId: ".owner",
             },
           ],
         },
         {
-          title: "ᴍʀ ʜᴀɴꜱᴀᴍᴀʟᴀ",
+          title: "ＰＲＩＮＣＥ",
           rows: [
             {
               title: "ɴᴀᴍᴇ",
-              description: "ꜱʜᴀꜱʜɪᴋᴀ ᴄʜɪʀᴀᴛʜ ʜᴀɴꜱᴀᴍᴀʟᴀ",
+              description:"ＰＲＩＮＣＥ",
               rowId: ".owner",
             },
             {
@@ -79,7 +79,7 @@ END:VCARD`.trim(),
             },
 {
               title: "ᴄᴏᴜɴʀᴛʏ",
-              description: "🇱🇰ꜱʀɪ ʟᴀɴᴀᴋᴀ🇱🇰",
+              description: "🇱🇰 TANZANIA 🇱🇰",
               rowId: ".owner",
             },
 
