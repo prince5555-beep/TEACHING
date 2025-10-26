@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const path = require('path');
 const settingsFile = path.join(__dirname, '../group-settings.json');
